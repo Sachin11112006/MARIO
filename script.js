@@ -47,7 +47,7 @@ document.addEventListener("keydown", function (e) {
       marioX = 0;
     }
 
-    mario.style.left = marioX + "px";
+     mario.style.left = marioX + "px";
   }
 
 
