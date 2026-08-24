@@ -56,7 +56,7 @@ document.addEventListener("keydown", function (e) {
   if (
     e.key === " " ||
     e.key === "w" ||
-     e.key === "ArrowUp"
+    e.key === "ArrowUp"
   ) {
 
     jump();
