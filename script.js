@@ -19,7 +19,7 @@ let score = 0;
 document.addEventListener("keydown", function (e) {
 
   if (gameRunning === false) {
-    return;
+     return;
   }
 
 
