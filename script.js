@@ -41,7 +41,7 @@ document.addEventListener("keydown", function (e) {
 
   if (e.key === "a" || e.key === "ArrowLeft") {
 
-    marioX = marioX - 10;
+      marioX = marioX - 10;
 
     if (marioX < 0) {
       marioX = 0;
