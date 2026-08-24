@@ -87,13 +87,13 @@ function jump() {
 
       clearInterval(jumpUp);
 
-
+ 
       let jumpDown = setInterval(function () {
 
         marioY = marioY - 10;
 
         mario.style.bottom = marioY + "px";
-
+    
 
         if (marioY <= 0) {
 
